@@ -5,39 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        ul{
-            list-style: none;
-            background-color: black;
-            border-radius: 10px;
-            display: flex;
-            top: 10PX;
-            left: 10PX;
-
-         
-
-        }
-        li{
-            display: inline-block;
-            font-size: 20PX;
-            text-align: center;
-            padding: 30PX;
-           
-
-        }
-        a{
-            color: white;
-            
-
-        }
-
+        
     </style>
 </head>
 <body>
-    <ul>
-        <li><A>Home</A></li>
-        <li><A>contact us</A></li>
-        <li><A>review</A></li>
-        <li><A>shop now</A></li>
-    </ul>
+    <h1>resteration form</h1>
+    <form >
+        <label>NAME</label>
+        <input type="text" name="user" placeholder="enter your name "><br>
+        <label>FATHER NAME</label>
+        <input type="text" name="f.user" placeholder="enter your father name "><br>
+        <label>PASSWORD</label>
+        <input type="password" name="password" placeholder="enter your password "><br>
+        <label>date of birth</label>
+        <input type="date" name="date" placeholder="date of birth"><br>
+        <label>EMAIL</label>
+        <input type="email" name="email" placeholder="enter your email"><br>
+        <label>AGE </label>
+        <input type="number" name="age" placeholder="enter your age"><br>
+        <label>SELECT YOUR COUNTRY </label>
+        <select name="country">
+            <option value="" name="country">--select you country name--</option>
+            <option value="" name="country">pakistan</option>
+            <option value="" name="country">USA</option>
+            <option value="" name="country">UK</option>
+            <option value="" name="country">india</option>
+        </select><br>
+        <label for="">select your course </label>
+        <select name="course">
+            <option>--select your course--</option>
+            
+            <option>SHORT COURSE</option>
+            <option>MEDIUM COURSE</option>
+            <option>LONG COURSE</option>
+        </select><br>
+        <input type="radio" name="gender" value="gender">MALE 
+        <input type="radio" name="gender"  value="gender">FEMALE 
+        <input type="radio" name="gender" value="gender">CHAKA  <br>
+        <button name="register">register</button>
+
+
+
+
+    </form>
+    
+    
 </body>
 </html>
